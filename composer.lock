@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4cb1cdcf0ca9f9400870d36fa94e83c6",
-    "content-hash": "12b6223911bb3b0c51165869af051014",
+    "hash": "9f6ac62ff7d589d16f179ad0b0e05cba",
+    "content-hash": "61c0e3df67ae3c25564e5064ab29f0c2",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -966,12 +966,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pbbg/medusa.git",
-                "reference": "2dea3721bc015c00b9e3fbeaa3fcd2b33d9933c4"
+                "reference": "7dd681ec80343924a919f9cf9db61e9f1536631e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pbbg/medusa/zipball/2dea3721bc015c00b9e3fbeaa3fcd2b33d9933c4",
-                "reference": "2dea3721bc015c00b9e3fbeaa3fcd2b33d9933c4",
+                "url": "https://api.github.com/repos/pbbg/medusa/zipball/7dd681ec80343924a919f9cf9db61e9f1536631e",
+                "reference": "7dd681ec80343924a919f9cf9db61e9f1536631e",
                 "shasum": ""
             },
             "require": {
@@ -1007,7 +1007,7 @@
                 }
             ],
             "description": "A persistant browser based game engine",
-            "time": "2017-01-28 17:02:25"
+            "time": "2017-01-28 17:30:32"
         },
         {
             "name": "predis/predis",
