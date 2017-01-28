@@ -1,0 +1,16 @@
+{
+    "author": {
+        "name": "Ian Milliken",
+        "website": ""
+    },
+    "meta": {
+        "name": "Sample Hook",
+        "description": "A sample hook for teaching others, it displays HelloWorld",
+        "version": "1"
+    },
+    "hooks": {
+        "top_header": ["Medusa\\Hooks\\SampleHook\\SampleHook", "run"],
+        "first": ["Medusa\\Hooks\\SampleHook\\SampleHook", "run"],
+        "second": ["Medusa\\Hooks\\SampleHook\\SampleHook", "run"]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "author": {
+        "name": "{{author}}",
+        "website": ""
+    },
+    "meta": {
+        "name": "{{name}}",
+        "description": "",
+        "version": "{{version}}"
+    },
+    "navigation": {
+        "icon": "<i class='fa fa-magic></i>"
+    }
+}

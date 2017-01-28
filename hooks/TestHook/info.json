@@ -1,0 +1,14 @@
+{
+    "author": {
+        "name": "Ian Milliken",
+        "website": ""
+    },
+    "meta": {
+        "name": "Test Hook",
+        "description": "A test hook for teaching others, it displays HelloWorld",
+        "version": "1"
+    },
+    "hooks": {
+        "top_header": ["Medusa\\Hooks\\TestHook\\TestHook", "run"]
+    }
+}

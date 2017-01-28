@@ -1,0 +1,16 @@
+<?php
+
+namespace {{namespace}};
+
+use Illuminate\Http\Request;
+
+use {{rootNamespace}}Http\Requests;
+use {{rootNamespace}}Http\Controllers\Controller;
+
+class {{class}} extends Controller
+{
+    public function index()
+    {
+        return view('{{lcmodulename}}::index');
+    }
+}

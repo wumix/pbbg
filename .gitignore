@@ -1,0 +1,16 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+/modules/*
+/public/build
+/public/css
+/public/js
+/public/fonts
+/x/modules/*
+/x/hooks/*
+.gitattributes
