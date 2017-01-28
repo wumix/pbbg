@@ -1,1 +1,0 @@
-<div class="form-group @if($errors->first($name)) has-error @endif">

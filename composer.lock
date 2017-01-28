@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b09e8801cddd4349eda958531f22eaa3",
-    "content-hash": "68ba9a13744c204d82778333a6747f96",
+    "hash": "4cb1cdcf0ca9f9400870d36fa94e83c6",
+    "content-hash": "12b6223911bb3b0c51165869af051014",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -962,16 +962,16 @@
         },
         {
             "name": "pbbg/medusa",
-            "version": "0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pbbg/medusa.git",
-                "reference": "1aaf2bdec5be39fba8ef28af85fff9c733e3f459"
+                "reference": "2dea3721bc015c00b9e3fbeaa3fcd2b33d9933c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pbbg/medusa/zipball/1aaf2bdec5be39fba8ef28af85fff9c733e3f459",
-                "reference": "1aaf2bdec5be39fba8ef28af85fff9c733e3f459",
+                "url": "https://api.github.com/repos/pbbg/medusa/zipball/2dea3721bc015c00b9e3fbeaa3fcd2b33d9933c4",
+                "reference": "2dea3721bc015c00b9e3fbeaa3fcd2b33d9933c4",
                 "shasum": ""
             },
             "require": {
@@ -1007,7 +1007,7 @@
                 }
             ],
             "description": "A persistant browser based game engine",
-            "time": "2017-01-28 13:51:49"
+            "time": "2017-01-28 17:02:25"
         },
         {
             "name": "predis/predis",
@@ -3845,7 +3845,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "pbbg/medusa": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

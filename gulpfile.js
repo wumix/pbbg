@@ -39,7 +39,7 @@ elixir((mix) => {
     mix.scripts([
             npmFolder + 'jquery/dist/jquery.min.js',
             // npmFolder + 'jquery-migrate/dist/jquery-migrate.min.js',
-            // npmFolder + 'bootstrap-sass/assets/javascripts/bootstrap.min.js',
+            npmFolder + 'bootstrap-sass/assets/javascripts/bootstrap.min.js',
             npmFolder + '@sergiovilar/jquery-pjax/jquery.pjax.js'
         ], 'public/js/vendor.js');
 
@@ -55,7 +55,7 @@ elixir((mix) => {
 
     mix.copy(
         npmFolder + 'font-awesome/fonts',
-        'public/fonts/'
+        'public/build/fonts/'
     );
 
     // Version everything
