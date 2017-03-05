@@ -20,6 +20,7 @@
     "buble-loader": "^0.4.0",
     "font-awesome": "^4.7.0",
     "jquery": "^2.2.4",
+    "nestedSortable": "ilikenwf/nestedSortable",
     "tinyscrollbar": "^2.4.2"
   }
 }
